@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Libre Franklin";
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  margin-left: 675px;
+  margin-right: 675px;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.slogan {
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 28px;
+  padding-left: 364px;
+  padding-right: 364px;
+  text-align: center;
+  color: #969696;
+}
+
+span {
+  color: #15202a;
+  font-weight: 700;
+}
+
+.subscribe {
+  margin-left: 599px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #15202a;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24.24px;
+}
+
+.input-container {
+  margin-left: 402px;
+  margin-right: 317px;
+  text-align: right;
+}
+
+.email {
+  border: 1px solid #c2d3ff;
+  height: 56px;
+  width: 421px;
+  border-radius: 20px;
+  padding-left: 30px;
+  color: #b8c7ed;
+}
+
+::placeholder {
+  color: #b8c7ed;
+  font-weight: 300;
+}
+
+button {
+  margin-left: 15px;
+  background-color: #4c7bf3;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 25px;
+  width: 250px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+}
+
+.pictures-area {
+  position: relative;
+  margin-top: 90px;
+  width: 640px;
+  height: 383px;
+  margin-left: 400px;
+  padding-top: 94px;
+}
+
+.pictures-area img {
+  position: absolute;
+}
+
+.left-top {
+  top: 45px;
+  left: 0;
+  margin-left: -22.48px;
+}
+
+.right-bottom {
+  right: 0;
+  bottom: 0;
+}
+
+.graphic {
+  top: 0;
+  z-index: 1;
+}
+
+.rectangle {
+  margin-left: -37.32px;
+}
+
+.social-media {
+  margin-top: 72px;
+  margin-left: 660px;
+}
+
+.footer {
+  margin-top: 10px;
+  margin-left: 620px;
+  color: #969696;
+  font-family: "Libre Franklin";
+  font-size: 12px;
+}
